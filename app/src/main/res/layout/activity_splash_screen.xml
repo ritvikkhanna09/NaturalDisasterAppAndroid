@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#4099FF"
+    tools:context="ritvikkhanna.naturaldisasterapp.Details">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/logom"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="184dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Natural Disaster Relief App"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/imageView"
+         />
+</RelativeLayout>

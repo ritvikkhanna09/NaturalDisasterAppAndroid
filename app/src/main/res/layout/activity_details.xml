@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="ritvikkhanna.naturaldisasterapp.Details">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#4099FF"
+        android:id="@+id/Rtop">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="TheHelpingHand"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/Rmid1"
+        android:layout_below="@+id/Rtop"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter the Details below"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:id="@+id/text_head"
+            android:layout_marginTop="14dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Name:"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:id="@+id/text_d1"
+            android:layout_marginTop="55dp"
+            android:layout_below="@+id/text_head"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp" />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:id="@+id/edt1"
+            android:layout_alignBaseline="@+id/text_d1"
+            android:layout_alignBottom="@+id/text_d1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="21dp"
+            android:layout_marginEnd="21dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Number of Members:"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:id="@+id/text_d2"
+            android:layout_below="@+id/edt1"
+            android:layout_alignLeft="@+id/text_d1"
+            android:layout_alignStart="@+id/text_d1"
+            android:layout_marginTop="18dp" />
+
+        <EditText
+            android:id="@+id/edt2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="17dp"
+            android:layout_alignBaseline="@+id/text_d2"
+            android:layout_alignBottom="@+id/text_d2"
+            android:layout_alignRight="@+id/text_head"
+            android:layout_alignEnd="@+id/text_head"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:text="Check shelter Availability"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/edt2"
+            android:layout_alignLeft="@+id/text_d2"
+            android:layout_alignStart="@+id/text_d2" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Rmid2"
+        android:layout_below="@+id/Rmid1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Availability"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:id="@+id/txtavail"
+            android:layout_marginBottom="42dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

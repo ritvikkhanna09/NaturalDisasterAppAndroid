@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "594656561597",
+    "firebase_url": "https://naturaldisasterreliefapp-edfb2.firebaseio.com",
+    "project_id": "naturaldisasterreliefapp-edfb2",
+    "storage_bucket": "naturaldisasterreliefapp-edfb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594656561597:android:53670f743e613194",
+        "android_client_info": {
+          "package_name": "ritvikkhanna.naturaldisasterreliefapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594656561597-j9u7ki4i9vi9lnbjou5ssd352kc3ajcf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtG8cJwZlGAy_T-8xh5z1YolZWNIWZ0KI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594656561597:android:7293170c6cedc25e",
+        "android_client_info": {
+          "package_name": "ritvikkhanna.naturaldisasterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594656561597-j9u7ki4i9vi9lnbjou5ssd352kc3ajcf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtG8cJwZlGAy_T-8xh5z1YolZWNIWZ0KI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
